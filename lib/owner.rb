@@ -9,14 +9,14 @@ class Owner
     @@all
   end
 
-  # def self.reset_all
-  #   
-  # end
+  def self.reset_all
+    @@all = []
+  end
 
   def self.count
     @@all.length
   end
-  
+
   def initialize(species)
     @species = species
     @@all << self
