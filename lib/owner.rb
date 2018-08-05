@@ -16,7 +16,7 @@ class Owner
   def self.count
     @@all.length
   end
-  
+
   def initialize(species)
     @species = species
     @@all << self
